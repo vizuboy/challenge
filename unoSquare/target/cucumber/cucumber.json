@@ -1,0 +1,120 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-11-20T06:30:34.414Z",
+        "line": 14,
+        "name": "Visual Studio Shopping",
+        "description": "",
+        "id": "shopping-cart;visual-studio-shopping;;2",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2991749700,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "the user is on the windows home page",
+            "match": {
+              "location": "stepdefinition.Steps.the_user_is_on_the_windows_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6721758200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "validate that all menu items are present",
+            "match": {
+              "location": "stepdefinition.Steps.validate_that_all_menu_items_are_present()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1035269600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "print all elements in dropdown from windows page",
+            "match": {
+              "location": "stepdefinition.Steps.print_all_elements_in_dropdown_from_windows_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2510949300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "the user search \"Visual Studio\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Visual Studio",
+                  "offset": 17
+                }
+              ],
+              "location": "stepdefinition.Steps.the_user_search(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 17887481600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "click the first one",
+            "match": {
+              "location": "stepdefinition.Steps.click_the_first_one()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#productPrice\"}\n  (Session info: chrome\u003d96.0.4664.45)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027LAPTOP-I2H2KFTM\u0027, ip: \u0027192.168.0.177\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002716.0.1\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.45, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\\Users\\vizu7\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:54592}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: deb5b7e24656e1d4d7c2f1d3a6279bd4\n*** Element info: {Using\u003did, value\u003dproductPrice}\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:78)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)\r\n\tat org.openqa.selenium.By$ById.findElement(By.java:188)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\r\n\tat jdk.proxy2/jdk.proxy2.$Proxy22.getText(Unknown Source)\r\n\tat models.MDetail.getPrice(MDetail.java:28)\r\n\tat stepdefinition.Steps.add_to_the_cart_select(Steps.java:133)\r\n\tat ✽.add to the cart, select \"20\"(file:///C:/Users/vizu7/eclipse-workspace/unoSquare/Features/TestCase01.feature:9)\r\n",
+              "duration": 13180554500,
+              "status": "failed"
+            },
+            "line": 9,
+            "name": "add to the cart, select \"20\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "20",
+                  "offset": 25
+                }
+              ],
+              "location": "stepdefinition.Steps.add_to_the_cart_select(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "the user validate the correct price",
+            "match": {
+              "location": "stepdefinition.Steps.the_user_validate_the_correctprice()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Shopping Cart",
+    "description": "",
+    "id": "shopping-cart",
+    "keyword": "Feature",
+    "uri": "file:Features/TestCase01.feature",
+    "tags": []
+  }
+]
